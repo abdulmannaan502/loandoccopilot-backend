@@ -15,7 +15,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",  # Vite default
     "http://localhost:3000",
-    "https://loandoccopilot-frontend.vercel.app/"
+    "https://loandoccopilot-frontend-1b06p3jbr-abdul-mannaans-projects.vercel.app/"
 ]
 
 app.add_middleware(
