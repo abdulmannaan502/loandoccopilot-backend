@@ -12,10 +12,7 @@ from datetime import datetime
 app = FastAPI()
 
 # allow frontend dev server
-origins = [
-    "http://localhost:5173",
-    "https://loandoccopilot-frontend-epc7jgrsc-abdul-mannaans-projects.vercel.app/",
-]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
