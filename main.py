@@ -13,7 +13,7 @@ app = FastAPI()
 
 # allow frontend dev server
 origins = [
-    "*"
+    "https://loandoccopilot-frontend-epc7jgrsc-abdul-mannaans-projects.vercel.app/"
 ]
 
 app.add_middleware(
